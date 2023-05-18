@@ -83,6 +83,10 @@
     color: var(--teal); 
 }
 
+.portfolio {
+    background-color: var(--turquoise);
+}
+
 .projects {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -100,9 +104,17 @@
     gap: 15px; 
 
     width: 500px; 
-    border: 1px solid black;
     border-radius: 10px; 
     overflow: hidden; 
+
+    background-color: var(--dark-blue);
+    color: white; 
+    transition: 150ms; 
+}
+
+.project:hover {
+    transition: 200ms; 
+    transform: scale(1.1); 
 }
 
 img {
@@ -118,4 +130,21 @@ img {
 
 .project-title {
 
+}
+
+.btn {
+    text-decoration: none;
+    color: white; 
+    border: 2px solid var(--teal); 
+    border-radius: 15px; 
+    background-color: var(--dark-blue); 
+
+    padding: 10px; 
+    margin: 20px; 
+}
+
+.btn:hover {
+    transition: 200ms; 
+    background-color: var(--teal); 
+    color: var(--black); 
 }
