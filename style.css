@@ -1,13 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
 * {
     padding: 0; 
     margin: 0; 
 }
 
 :root {
+    font-family: Arvo, sans-serif; 
     --black: #0B0C10; 
     --dark-blue: #1F2833;
     --grey: #C5C6C7;
     --teal: #66FCF1;
     --turquoise: #45A29E; 
+}
+
+.nav {
+    display: flex; 
+    justify-content: left; 
+
+    background-color: var(--dark-blue); 
+    color: white; 
+}
+
+.nav-tab {
+    padding: 20px;
+}
+.nav-tab:hover {
+    transition: 200ms; 
+    background-color: var(--grey); 
+    cursor: pointer; 
+    color: var(--dark-blue); 
+}
+
+.content {
+
+}
+
+.section {
+
+}
+
+.introduction {
+
+}
+
+.description-sm {
+
+}
+
+.description-md {
+
+}
+
+.title {
+
+}
+
+.project {
+
+}
+
+.project-title {
 
 }
