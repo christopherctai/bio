@@ -37,23 +37,47 @@
 }
 
 .section {
-
+    
 }
 
 .introduction {
+    background-color: var(--dark-blue);
+    color: white; 
 
+    padding: 30px; 
+
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.introduction-header {
+    display: flex; 
+    flex-direction: column; 
+    gap: 6px;
+}
+
+.introduction-content {
+    display: flex; 
+    flex-direction: column; 
+    gap: 35px; 
 }
 
 .description-sm {
-
+    font-size: 15px; 
 }
 
 .description-md {
+    font-size: 20px; 
+}
 
+.teal {
+    color: var(--teal); 
 }
 
 .title {
-
+    font-weight: 700; 
+    font-size:90px; 
+    color: var(--teal); 
 }
 
 .project {
