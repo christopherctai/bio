@@ -80,8 +80,28 @@
     color: var(--teal); 
 }
 
-.project {
+.projects {
+    display: grid; 
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    padding: 50px;
+}
 
+
+.project {
+    display: flex; 
+    flex-direction: column; 
+    width: 300px; 
+}
+
+img {
+    width: 500px; 
+    height: auto; 
+}
+
+.project-image {
+    width: 500px; 
+    height: 220px;  
+    overflow: hidden; 
 }
 
 .project-title {
