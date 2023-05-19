@@ -44,8 +44,7 @@
     background-color: var(--dark-blue);
     color: white; 
 
-    display: flex; 
-    justify-content: space-between; 
+    display: flex;  
 }
 
 .introduction-header {
@@ -65,12 +64,21 @@
     flex: 2;
 }
 
+.profile-picture {
+    flex: 1; 
+    overflow: hidden;
+}
+
+.chris-tai-profile {
+    width: 700px; 
+}
+
 .description-sm {
-    font-size: 15px; 
+    font-size: 25px; 
 }
 
 .description-md {
-    font-size: 20px; 
+    font-size: 40px; 
 }
 
 .teal {
@@ -79,12 +87,12 @@
 
 .title {
     font-weight: 700; 
-    font-size:90px; 
+    font-size: 180px; 
     color: var(--teal); 
 }
 
 .portfolio {
-    background-color: var(--turquoise);
+    background-color: var(--grey);
 }
 
 .projects {
@@ -121,10 +129,6 @@
 img {
     width: 500px; 
     height: auto; 
-}
-
-.profile-picture {
-    flex: 1; 
 }
 
 .project-image {
