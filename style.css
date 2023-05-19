@@ -115,6 +115,7 @@
 .project:hover {
     transition: 200ms; 
     transform: scale(1.1); 
+    box-shadow: 2px 2px 3px 3px var(--dark-blue); 
 }
 
 img {
@@ -128,8 +129,8 @@ img {
     overflow: hidden; 
 }
 
-.project-title {
-
+.project .description-sm {
+    padding: 0px 34px; 
 }
 
 .btn {
