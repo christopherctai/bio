@@ -44,8 +44,6 @@
     background-color: var(--dark-blue);
     color: white; 
 
-    padding: 30px; 
-
     display: flex; 
     justify-content: space-between; 
 }
@@ -55,13 +53,15 @@
     flex-direction: column; 
     gap: 6px;
 
+    
 }
 
 .introduction-content {
     display: flex; 
     flex-direction: column; 
     gap: 35px; 
-
+    
+    padding: 30px; 
     flex: 2;
 }
 
@@ -121,6 +121,10 @@
 img {
     width: 500px; 
     height: auto; 
+}
+
+.profile-picture {
+    flex: 1; 
 }
 
 .project-image {
