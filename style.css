@@ -43,14 +43,6 @@ a {
     color: var(--dark-blue); 
 }
 
-.content {
-
-}
-
-.section {
-    
-}
-
 .introduction {
     background-color: var(--dark-blue);
     color: white; 
@@ -84,12 +76,12 @@ a {
     width: 700px; 
 }
 
-.description-sm {
-    font-size: 25px; 
+p {
+    font-size: 1.1em; 
 }
 
-.description-md {
-    font-size: 40px; 
+h2 {
+    font-size: 3em; 
 }
 
 .teal {
@@ -98,8 +90,7 @@ a {
 
 .title {
     font-weight: 700; 
-    font-size: 180px; 
-    color: var(--teal); 
+    font-size: 10em; 
 }
 
 .portfolio {
@@ -129,6 +120,8 @@ a {
     background-color: var(--dark-blue);
     color: white; 
     transition: 150ms; 
+
+    cursor:pointer; 
 }
 
 .project:hover {
